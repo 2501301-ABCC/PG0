@@ -1,0 +1,106 @@
+body{
+    font-family: Meiryo UI;
+    margin: 0;
+}
+
+#nav{
+    box-sizing: border-box;
+    position: fixed;
+    top: 0%;
+    background-color: red;
+    color:white;
+    padding: 10px;
+    width: 100%;
+}
+
+#nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+#nav a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#nav a:hover{
+    background-color: pink;
+}
+
+#homemain{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#homeimg{
+    margin-top: 50px;
+    width: 45%;
+    height: 45%;
+}
+
+#homedeta{
+    margin-left: 25%;
+    margin-top: 50px;
+}
+
+#sportsmain{
+    box-sizing: border-box;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#sportsmain h1{
+    margin-left: 30px;
+}
+
+#sportsbaseball{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+#sportsbaseball img{
+    width: 300px;
+    height: 300px;
+}
+
+#sportstakkyu{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+#sportstakkyu img{
+    width: 300px;
+    height: 300px;
+}
+
+#hobymain{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#carp{
+    display: flex;
+    right: 20px;
+}
+
+#hometown{
+    box-sizing: border-box;
+    margin-top: 100px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+#food{
+    text-align: center;
+    margin-top: 100px;
+}
